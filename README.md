@@ -2,6 +2,8 @@
 
 This project is for a simple async http response on top of Red Hat Fuse, where it will run a specific logic asyncronously. And we need Java 8 to run this project. 
 
+Now adding Camel XML Route and Rest endpoints for addition to existing Camel Spring Boot DSL. 
+
 ## Build the project using Maven
 
 ```shell script

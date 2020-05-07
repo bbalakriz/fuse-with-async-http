@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rest path="/customers" xmlns="http://camel.apache.org/schema/spring">
+    <get>
+        <route>
+            <setBody>
+                <method ref="transformHandler" method="sayHi(${header.id})"/>
+            </setBody>
+            <log id="customers-get-log" message=">>> ${body}"/>
+        </route>
+    </get>
+    <post>
+        <route>
+            <transform>
+                <constant>Bye Customer</constant>
+            </transform>
+        </route>
+    </post>
+</rest>

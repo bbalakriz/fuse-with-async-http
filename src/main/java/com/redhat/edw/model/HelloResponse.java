@@ -1,10 +1,10 @@
-package com.redhat.edw;
+package com.redhat.edw.model;
 
 import lombok.*;
 
 /**
  * <pre>
- *     com.redhat.edw.HelloResponse
+ *     com.redhat.edw.model.HelloResponse
  * </pre>
  *
  * @author Muhammad Edwin < edwin at redhat dot com >

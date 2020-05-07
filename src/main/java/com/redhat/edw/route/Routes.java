@@ -1,13 +1,13 @@
-package com.redhat.edw;
+package com.redhat.edw.route;
 
+import com.redhat.edw.model.HelloResponse;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.model.rest.RestBindingMode;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 /**
  * <pre>
- *     com.redhat.edw.Routes
+ *     com.redhat.edw.route.Routes
  * </pre>
  *
  * @author Muhammad Edwin < edwin at redhat dot com >

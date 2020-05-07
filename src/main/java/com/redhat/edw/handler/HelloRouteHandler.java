@@ -1,5 +1,6 @@
-package com.redhat.edw;
+package com.redhat.edw.handler;
 
+import com.redhat.edw.model.HelloResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Async;
@@ -7,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * <pre>
- *     com.redhat.edw.HelloRouteHandler
+ *     com.redhat.edw.handler.HelloRouteHandler
  * </pre>
  *
  * @author Muhammad Edwin < edwin at redhat dot com >
