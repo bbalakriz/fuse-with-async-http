@@ -28,6 +28,11 @@
                     <name>Enterprise Releases</name>
                     <url>https://maven.repository.redhat.com/earlyaccess/all</url>
                 </repository>
+                <repository>
+                    <id>btpn-labs</id>
+                    <name>btpn-labs repo</name>
+                    <url>http://nexus-nexus.apps.pam-cluster.sandbox1471.opentlc.com/repository/pam-mixed/</url>
+                </repository>
             </repositories>
 
             <pluginRepositories>
